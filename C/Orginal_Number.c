@@ -13,7 +13,7 @@ int main(int ac, char **av)
     int res = 0;
     res = (a + b) * (a + b);
     if(res == num)
-        printf("Super Sayi");
+        printf("Orginal Number");
     else
-        printf("Super Sayi DEGIL");
+        printf("Not Orginal Number");
 }
