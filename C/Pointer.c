@@ -3,9 +3,13 @@
 
 void update(int *a, int *b) {
     int sum = *a + *b;
-    int diff = abs(*a - *b);
+    int diff = *a - *b;
 
     *a = sum;
+    
+    if(diff < 0)
+        diff *= -1;
+        
     *b = diff;
 }
 
